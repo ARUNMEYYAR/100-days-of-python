@@ -1,0 +1,10 @@
+num=int(input("enter the number:"))
+fact=1
+if num<0:
+    print("it is invalid")
+else:    
+  for i in range(1,num+1):
+    fact=fact*i
+
+print("the factorial of the number is:",fact)    
+
