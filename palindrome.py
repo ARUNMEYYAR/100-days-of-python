@@ -1,4 +1,4 @@
-num = 1234
+num=int(input("enter the number:"))
 reverse = int(str(num)[::-1])
 
 if num == reverse:
