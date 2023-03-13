@@ -1,0 +1,6 @@
+str=str(input("enter the string:"))
+nstr=input("enter the string to be removed:")
+pstr=input("enter the new string")
+str= str.replace(nstr,pstr)
+print("new string:")
+print(str)
